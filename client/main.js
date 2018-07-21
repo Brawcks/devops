@@ -1,10 +1,11 @@
 // IMPORT ALL JS COMPONENTS //////////////////////////////////////////
-
+import { Meteor } from 'meteor/meteor';
+import { Mongo } from 'meteor/mongo';
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
-import SimpleSchema from 'simpl-schema';
 
-SimpleSchema.extendOptions(['autoform']);
+// COLLECTIONS
+import { Recipes } from '../collections/recipes.js';
 
 
 // IMPORT ALL HTML COMPONENTS ///////////////////////////////////////

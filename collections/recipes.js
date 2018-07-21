@@ -1,4 +1,12 @@
+import { Meteor } from 'meteor/meteor';
+import { Mongo } from 'meteor/mongo';
+
+import SimpleSchema from 'simpl-schema';
+SimpleSchema.extendOptions(['autoform']);
+
 Recipes = new Meteor.Collection('recipes');
+
+const self = this.Meteor;
 
 RecipeSchema = new SimpleSchema({
     name: {
@@ -13,7 +21,10 @@ RecipeSchema = new SimpleSchema({
         type: String,
         label: "Author",
         autoValue: function () {
-            return this.userId();
+            return self.userId();
+        },
+        autoform: {
+            type: "hidden",
         }
     },
     createdAt: {
@@ -21,8 +32,17 @@ RecipeSchema = new SimpleSchema({
         label: "Created At",
         autoValue: function () {
             return new Date()
+        },
+        autoform: {
+            type: "hidden",
         }
     }
 })
 
 Recipes.attachSchema( RecipeSchema );
+
+Recipes.allow({
+    insert: function (userId, doc) {
+        return !!userId;
+    }
+})

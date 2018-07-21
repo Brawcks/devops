@@ -24,3 +24,7 @@ cosmos:browserify
 accounts-ui 
 accounts-password
 aldeed:autoform
+aldeed:simple-schema@1.4.3
+aldeed:collection2
+stolinski:stylus-multi
+meteortoys:allthings
