@@ -19,12 +19,12 @@ import './layouts/HomeLayout.html';
 import './layouts/MainLayout.html';
 
 import './recipes/Recipes.html';
+import './recipes/Recipe.html';
 import './recipes/NewRecipe.html';
 
 // IMPORT ALL JAVASCRIPT COMPONENTS
 // SUBSCRIBE
 import './recipes/recipes.js';
-
 import '../lib/routes.js';
 
 
