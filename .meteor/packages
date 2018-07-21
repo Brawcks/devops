@@ -28,3 +28,4 @@ aldeed:simple-schema@1.4.3
 aldeed:collection2
 stolinski:stylus-multi
 meteortoys:allthings
+autopublish@1.0.7             # Publish all data to the clients (for prototyping)

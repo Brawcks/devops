@@ -46,5 +46,3 @@ RecipeSchema = new SimpleSchema({
 })
 
 Recipes.attachSchema( RecipeSchema );
-
-

@@ -7,6 +7,12 @@ import { ReactiveVar } from 'meteor/reactive-var';
 // COLLECTIONS
 import { Recipes } from '../collections/recipes.js';
 
+// IMPORT ALL JAVASCRIPT COMPONENTS
+// SUBSCRIBE
+import './recipes/recipes.js';
+
+
+
 
 // IMPORT ALL HTML COMPONENTS ///////////////////////////////////////
 
@@ -19,6 +25,7 @@ import './layouts/MainLayout.html';
 
 import './recipes/Recipes.html';
 import './recipes/NewRecipe.html';
+
 
 
 
