@@ -28,7 +28,6 @@ aldeed:simple-schema@1.4.3      # For using schemas
 aldeed:collection2
 stolinski:stylus-multi
 meteortoys:allthings            # Tool on-site for debugging
-autopublish@1.0.7               # Publish all data to the clients (for prototyping)
 datariot:ganalytics
 fortawesome:fontawesome
 twbs:bootstrap
