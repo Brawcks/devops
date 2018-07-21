@@ -1,22 +1,23 @@
+// IMPORT ALL JS COMPONENTS //////////////////////////////////////////
+
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
+import SimpleSchema from 'simpl-schema';
 
+SimpleSchema.extendOptions(['autoform']);
+
+
+// IMPORT ALL HTML COMPONENTS ///////////////////////////////////////
+
+import '../lib/routes.js';
 import './main.html';
 
-Template.hello.onCreated(function helloOnCreated() {
-  // counter starts at 0
-  this.counter = new ReactiveVar(0);
-});
+// LAYOUTS
+import './layouts/HomeLayout.html';
+import './layouts/MainLayout.html';
 
-Template.hello.helpers({
-  counter() {
-    return Template.instance().counter.get();
-  },
-});
+import './recipes/Recipes.html';
+import './recipes/NewRecipe.html';
 
-Template.hello.events({
-  'click button'(event, instance) {
-    // increment the counter when button is clicked
-    instance.counter.set(instance.counter.get() + 1);
-  },
-});
+
+
