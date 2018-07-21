@@ -8,6 +8,12 @@ Recipes = new Meteor.Collection('recipes');
 
 const self = this.Meteor;
 
+Recipes.allow({
+    insert: function (userId, doc) {
+        return !!userId;
+    }
+})
+
 RecipeSchema = new SimpleSchema({
     name: {
         type: String,
@@ -41,8 +47,4 @@ RecipeSchema = new SimpleSchema({
 
 Recipes.attachSchema( RecipeSchema );
 
-Recipes.allow({
-    insert: function (userId, doc) {
-        return !!userId;
-    }
-})
+
