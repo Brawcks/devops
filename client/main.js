@@ -22,6 +22,7 @@ import './main.html';
 // LAYOUTS
 import './layouts/HomeLayout.html';
 import './layouts/MainLayout.html';
+import './layouts/SideNav.html';
 
 import './recipes/Recipes.html';
 import './recipes/NewRecipe.html';
