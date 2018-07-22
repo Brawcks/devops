@@ -37,6 +37,7 @@ raix:handlebar-helpers          # Manipulate session variables
 babel-runtime
 d3k4y:simple-chat
 email
+jquery
 
 juliancwirko:s-alert            # Alerts on site
 juliancwirko:s-alert-scale
