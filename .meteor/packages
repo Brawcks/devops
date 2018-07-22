@@ -36,3 +36,4 @@ check
 raix:handlebar-helpers          # Manipulate session variables
 babel-runtime
 d3k4y:simple-chat
+email
