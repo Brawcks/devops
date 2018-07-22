@@ -31,6 +31,7 @@ import './shopping/ShoppingList.html';
 import './recipes/recipes.js';
 import './recipes/recipe.js';
 import './recipes/RecipeSingle.js';
+import './recipes/NewRecipe.js';
 
 import './shopping/ShoppingList.js';
 
