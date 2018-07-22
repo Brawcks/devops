@@ -10,6 +10,7 @@ import { Recipes } from '../collections/recipes.js';
 
 // IMPORT ALL HTML COMPONENTS ///////////////////////////////////////
 import './main.html';
+import './Menu.html';
 
 // LAYOUTS
 import './partials/SideNav.html';
