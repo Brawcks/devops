@@ -33,3 +33,4 @@ datariot:ganalytics
 fortawesome:fontawesome
 twbs:bootstrap
 check
+raix:handlebar-helpers          # Manipulate session variables
