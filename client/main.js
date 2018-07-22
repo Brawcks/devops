@@ -10,7 +10,6 @@ import { Recipes } from '../collections/recipes.js';
 
 // IMPORT ALL HTML COMPONENTS ///////////////////////////////////////
 import './main.html';
-import './Menu.html';
 
 // LAYOUTS
 import './partials/SideNav.html';
@@ -24,13 +23,20 @@ import './recipes/Recipe.html';
 import './recipes/RecipeSingle.html';
 import './recipes/NewRecipe.html';
 
+import './menu/Menu.html';
+import './shopping/ShoppingList.html';
+
 // IMPORT ALL JAVASCRIPT COMPONENTS
 // CLIENT
 import './recipes/recipes.js';
 import './recipes/recipe.js';
 import './recipes/RecipeSingle.js';
 
-import './Menu.js';
+import './shopping/ShoppingList.js';
+
+import './menu/Menu.js';
+
+// import './shopping/Shopping.js';
 
 //LIBRARY
 import '../lib/routes.js';
