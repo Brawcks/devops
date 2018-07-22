@@ -24,7 +24,10 @@ import './recipes/RecipeSingle.html';
 import './recipes/NewRecipe.html';
 
 import './menu/Menu.html';
+
 import './shopping/ShoppingList.html';
+
+import './messages/Messages.html';
 
 // IMPORT ALL JAVASCRIPT COMPONENTS
 // CLIENT
@@ -36,6 +39,8 @@ import './recipes/NewRecipe.js';
 import './shopping/ShoppingList.js';
 
 import './menu/Menu.js';
+
+import './layouts/MainLayout.js';
 
 // import './shopping/Shopping.js';
 
