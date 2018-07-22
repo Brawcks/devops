@@ -27,6 +27,7 @@ aldeed:autoform
 aldeed:simple-schema@1.4.3      # For using schemas
 aldeed:collection2
 stolinski:stylus-multi
+# gwendall:auth-client-callbacks
 meteortoys:allthings            # Tool on-site for debugging
 datariot:ganalytics
 fortawesome:fontawesome

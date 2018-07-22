@@ -26,6 +26,7 @@ import './recipes/NewRecipe.html';
 // IMPORT ALL JAVASCRIPT COMPONENTS
 // SUBSCRIBE
 import './recipes/recipes.js';
+import './recipes/recipe.js';
 import './recipes/RecipeSingle.js';
 import '../lib/routes.js';
 
