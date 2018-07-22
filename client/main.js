@@ -25,10 +25,14 @@ import './recipes/RecipeSingle.html';
 import './recipes/NewRecipe.html';
 
 // IMPORT ALL JAVASCRIPT COMPONENTS
-// SUBSCRIBE
+// CLIENT
 import './recipes/recipes.js';
 import './recipes/recipe.js';
 import './recipes/RecipeSingle.js';
+
+import './Menu.js';
+
+//LIBRARY
 import '../lib/routes.js';
 
 
