@@ -6,4 +6,4 @@ before_script:
 rspec:
   script:
     - ls -lArth && pwd
-    - meteor --allow-superuser --settings settings.json
+    - meteor --allow-superuser --raw-logs --settings settings.json
