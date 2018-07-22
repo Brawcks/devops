@@ -44,6 +44,8 @@ import './menu/Menu.js';
 
 import './emails/Emails.js';
 
+import './messages/Messages.js';
+
 import './layouts/MainLayout.js';
 
 // import './shopping/Shopping.js';
