@@ -1,9 +1,7 @@
 before_script:
   - apt-get update -qq && apt-get install -y -qq sqlite3 libsqlite3-dev nodejs curl sudo
   - curl https://install.meteor.com/ | sh
-  - meteor -v --allow-superuser
 
 rspec:
   script:
-    - ls -lArth && pwd
     - meteor --allow-superuser --raw-logs --settings settings.json
