@@ -1,6 +1,7 @@
 before_script:
   - apt-get update -qq && apt-get install -y -qq sqlite3 libsqlite3-dev nodejs curl sudo sh
   - curl https://install.meteor.com/ | sh
+  - meteor -v
 
 rspec:
   script:
