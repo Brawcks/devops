@@ -12,5 +12,7 @@ Template.Emails.events({
         }
         
         Meteor.call('sendEmail', data.dest, data.from, data.title, data.content);
+
+        sAlert.info('Your mail has been submitted properly !');
     }
 })
