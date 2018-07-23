@@ -29,6 +29,8 @@ import './shopping/ShoppingList.html';
 
 import './messages/Messages.html';
 
+import './emails/Emails.html';
+
 // IMPORT ALL JAVASCRIPT COMPONENTS
 // CLIENT
 import './recipes/recipes.js';
@@ -39,6 +41,10 @@ import './recipes/NewRecipe.js';
 import './shopping/ShoppingList.js';
 
 import './menu/Menu.js';
+
+import './emails/Emails.js';
+
+import './messages/Messages.js';
 
 import './layouts/MainLayout.js';
 
